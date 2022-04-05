@@ -20,4 +20,3 @@ dir_to_zip = 'C:/Users/jerry/OneDrive/Section 14 - Advanced Python Modules/extra
 output_filename = 'example'
 shutil.make_archive(output_filename, 'zip', dir_to_zip)
 shutil.unpack_archive('example.zip', 'final_unzip', 'zip')
-
